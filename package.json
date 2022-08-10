@@ -1,5 +1,5 @@
 {
-  "name": "hls-vod-too",
+  "name": "hls-vod",
   "version": "2.0.3",
   "description": "Node CLI for on-demand encoding and streaming of videos",
   "repository": "github:kmxz/hls-vod-too",
@@ -8,6 +8,11 @@
       "name": "Mikael Finstad",
       "email": "finstaden@gmail.com",
       "url": "mifi.no"
+    },
+    {
+      "name": "Alfarih Faza",
+      "email": "alfarihfz@gmail.com",
+      "url": "alfarih31.github.io"
     }
   ],
   "license": "MIT",
@@ -20,7 +25,7 @@
     "build": "tsc && shebang-trim hls-vod.js"
   },
   "bin": {
-    "hls-vod-too": "hls-vod.js"
+    "hls-vod": "hls-vod.js"
   },
   "engines": {
     "node": ">=10.12"
