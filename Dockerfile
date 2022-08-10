@@ -1,5 +1,5 @@
 FROM ghcr.io/linuxserver/ffmpeg:bin as binstage
-FROM debian:buster-slim
+FROM ghcr.io/linuxserver/baseimage-ubuntu:focal
 
 # Add files from binstage
 COPY --from=binstage / /
