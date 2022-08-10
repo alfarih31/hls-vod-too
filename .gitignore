@@ -4,3 +4,5 @@ node_modules
 .idea
 # hls-vod.js is built from the TypeScript source. No need to include in repo.
 hls-vod.js
+
+build
